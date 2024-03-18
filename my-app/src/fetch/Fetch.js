@@ -11,7 +11,7 @@ export default function Fetch(){
 
     function eventCarrito(pizza){
         return new CustomEvent("carrito", {
-            detail:pizza,
+            detail:{...pizza},
             composed:true,
             bubbles:true
         })
