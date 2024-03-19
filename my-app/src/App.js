@@ -6,19 +6,24 @@
 // import Timer from './timer/Timer'
 // import Parent from './children/Parent';
 
-import Carrito from "./fetch/Carrito";
-import Fetch from "./fetch/Fetch";
+import Form from "./form/Form";
+
+// import Carrito from "./fetch/Carrito";
+// import Fetch from "./fetch/Fetch";
 
 function App() {
   return (
-    <>
-    <Fetch />
-    <Carrito />
-    <Carrito />
-    <Carrito />
-    <Carrito />
-    </>
+    <Form/>
   )
+  // return (
+  //   <>
+  //   <Fetch />
+  //   <Carrito />
+  //   <Carrito />
+  //   <Carrito />
+  //   <Carrito />
+  //   </>
+  // )
   /*const name = "Diego";
   return (
     <>
