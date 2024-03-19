@@ -14,6 +14,9 @@ function App() {
     <>
     <Fetch />
     <Carrito />
+    <Carrito />
+    <Carrito />
+    <Carrito />
     </>
   )
   /*const name = "Diego";
