@@ -6,14 +6,15 @@
 // import Timer from './timer/Timer'
 // import Parent from './children/Parent';
 
-import Form from "./form/Form";
+// import Form from "./form/Form";
+import RoutesApp from "./pages/routes";
 
 // import Carrito from "./fetch/Carrito";
 // import Fetch from "./fetch/Fetch";
 
 function App() {
   return (
-    <Form/>
+    <RoutesApp />
   )
   // return (
   //   <>
