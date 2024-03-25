@@ -7,14 +7,14 @@
 // import Parent from './children/Parent';
 
 // import Form from "./form/Form";
-import RoutesApp from "./pages/routes";
+import Page from "./dialog/Page";
 
 // import Carrito from "./fetch/Carrito";
 // import Fetch from "./fetch/Fetch";
 
 function App() {
   return (
-    <RoutesApp />
+    <Page />
   )
   // return (
   //   <>
